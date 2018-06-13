@@ -1,1 +1,11 @@
-
+.header {
+  display: flex;
+  padding-right: 24px;
+  padding-left: 24px;
+  height: 64px;
+  align-items: center;
+}
+.logo {
+  height: 32px;
+  flex-grow: 1;
+}
