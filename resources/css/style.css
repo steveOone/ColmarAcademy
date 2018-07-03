@@ -1,11 +1,30 @@
-.header {
-  display: flex;
-  padding-right: 24px;
-  padding-left: 24px;
-  height: 64px;
-  align-items: center;
+html {
+  font-size: 16px;
 }
-.logo {
-  height: 32px;
+body {
+  background-color: white;
+  font-family: Helvetica;
+}
+.desktop-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 4rem;
+}
+.desktop-header .logo {
+  display: flex;
   flex-grow: 1;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+.logo span {
+  font-size: 1.25rem;
+  color: grey;
+}
+span strong {
+  color: black;
+  font-weight: bold;
+}
+.desktop-header nav {
+  margin-right: 1.5rem;
 }
